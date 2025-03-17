@@ -1,4 +1,6 @@
-package PACKAGE_NAME;
+public class Hero extends FantasyCharacter {
 
-public class Hero {
+    public Hero(String name, int healthPoints, int strength, int dexterity, int xp, int gold) {
+        super(name, healthPoints, strength, dexterity, xp, gold);
+    }
 }
